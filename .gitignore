@@ -1,0 +1,9 @@
+data/*
+!data/README.md
+*.csv
+!reports/*.csv
+.env
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+catboost_info/

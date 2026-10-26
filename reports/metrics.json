@@ -1,0 +1,33 @@
+{
+  "selected_model": "LightGBM",
+  "parameters": {
+    "n_estimators": 200,
+    "learning_rate": 0.05,
+    "max_depth": 15
+  },
+  "validation_rmse_eur": 1628.7434774005999,
+  "test": [
+    {
+      "model": "LightGBM",
+      "rmse_eur": 1639.6985206984737,
+      "mae_eur": 1038.4277805743538
+    },
+    {
+      "model": "Regresión lineal",
+      "rmse_eur": 2654.510957718598,
+      "mae_eur": 1843.6003737068997
+    }
+  ],
+  "data": {
+    "input": 354369,
+    "unique_rows": 309329,
+    "retained": 256069,
+    "train": 153396,
+    "validation": 50914,
+    "test": 51759
+  },
+  "python": "3.9.23",
+  "split": "GroupShuffleSplit: 60/20/20 de grupos de características, semillas 42",
+  "selection": "Menor RMSE de validación entre nueve configuraciones",
+  "relative_rmse_reduction": 0.3822973245106881
+}
